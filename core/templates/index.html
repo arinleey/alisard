@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!--<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">-->
+
+	<link rel="shortcut icon" href= "{% static 'images/favicon.ico' %}" type="image/x-icon">
+
+    <title>Алисард- Строительство и проектирование КДК</title>
+
+	<link href="{% static 'fonts/OpenSansLight/OpenSansLight.ttf' %}" type="text/css">
+	<link href="{% static 'fonts/Exo2Bold/Exo2Bold.ttf' %}" type="text/css">
+	<link href="{% static 'fonts/OpenSansBold/OpenSansBold.ttf' %}" type="text/css">
+	<link href="{% static 'fonts/OpenSansRegular/OpenSansRegular.ttf' %}" type="text/css">
+	<link href="{% static 'fonts/OpenSansSemiBold/OpenSansSemiBold.ttf' %}" type="text/css">
+	<link href="{% static 'fonts/RobotoMonoLight/RobotoMono-Light.ttf' %}" type="text/css">
+
+
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+    <link href="{% static 'plugins/bootstrap-3.3.7/bootstrap.min.css' %}" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ek+Mukta">
+
+    {% block css %} {% endblock css %}
+</head>
+<body>
+
+	<!--<header class="main-head">-->
+	<div class="wrapper">
+			<div class="row">
+				<div class ="m-line col-md-12">
+					<!--<div class="col-lg-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">-->
+					<div class="col-md-3">
+						<div class="logo-block">
+							<img src="{% static 'images/logo.png' %}">
+						</div>
+                       <!--<a href="index.html" class="logo"><img src="{% static 'images/logo.svg' %}"> </a>-->
+					</div>
+					<div class="first-menu col-md-6">
+						<nav class="stroke">
+							<ul>
+								<li class="active"> <a href="#">Компания</a></li>
+								<li><a href="#">Проекты</a></li>
+								<li><a href="#">Новости</a></li>
+								<li><a href="#">Контакты</a></li>
+								<!--<li><a href="#">Сертификаты</a></li>-->
+							</ul>
+						</nav>
+					</div>
+					<!--<div class="col-lg-3 col-lg-push-7 col-md-6 col-sm-6 col-xs-12">-->
+					<div class="phone-number col-md-3">
+							<h3 class="phone-w" style="margin-bottom:0;">
+								+7 (981) <span class="colortel">155-66-55</span>
+							</h3>
+							<a href="#" class="callback" >Заказать обратный звонок</a>
+						<!--<div class="phone-conteiner">-->
+							<!--<div class="phone-w">-->
+								<!--+7 (981) <span class="colortel">155-66-55</span>-->
+							<!--</div>-->
+							<!--<a href="#" class="callback" >Заказать обратный звонок</a>-->
+						<!--</div>-->
+					</div>
+
+
+					<!--<div class="col-sm-7 col-md-pull-3">-->
+						<!--<nav class="stroke">-->
+							<!--<ul>-->
+								<!--<li class="active"> <a href="#">Компания</a></li>-->
+								<!--<li><a href="#">Проекты</a></li>-->
+								<!--<li><a href="#">Новости</a></li>-->
+								<!--<li><a href="#">Контакты</a></li>-->
+								<!--&lt;!&ndash;<li><a href="#">Сертификаты</a></li>&ndash;&gt;-->
+							<!--</ul>-->
+						<!--</nav>-->
+					<!--</div>-->
+
+					<div class="second-menu col-md-12 " style="padding-left: 0; padding-right:0;">
+						<div class="menuwrap">
+							<nav class="menu">
+								<ul class="clearfix">
+									<li><a href="#">Строительство КДК</a></li>
+									<li><a href="#">Изготовление домов <span class="arrow">&#9660;</span></a>
+										<ul class="sub-menu">
+											<li><a href="#">In Cinemas Now</a></li>
+											<li><a href="#">Coming Soon</a></li>
+											<li><a href="#">On DVD/Blu-ray</a></li>
+											<li><a href="#">Showtimes &amp; Tickets</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Ремонт и реконструкции</a></li>
+									<li><a href="#">Металлоконструкции</a></li>
+									<li><a href="#">Ландшафтный дизайн</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div> <!-- m-line -->
+			</div><!-- row -->
+	</div>
+	<!--</header>-->
+{% block content %} {% endblock content %}
+
+
+
+	<footer class="footer bg-futer">
+		<div class="futer-top">
+			<div class="conteiner">
+				<div class="row">
+
+					<div class="col-md-2">
+                        <div class="futer-site">
+                             <a href="index.html" class="logo"><img src="{% static 'images/logo.svg' %}"> </a>
+							<div class="menu-adress">
+								<!--<h3 class="menu-title">Контакты</h3>-->
+                            <ul class="furer-adress">
+								<li><strong>Адрес:</strong> г. Санкт-Петербург пр-кт Независимости 91, офис 4</li>
+								<li><strong>Телефон:</strong> (+7) 981 155 66 55</li>
+								<li><strong>Email:</strong> alisard_kdk@hmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+					</div>
+
+				<div class="col-md-2">
+                        <div class="futer-site">
+							<h3 class="menu-title"><a href="#">Строительство КДК</a></h3>
+                            <ul class="menu-list">
+                                <li><a href="#">Сельское хозяйство</a></li>
+                                <li><a href="#">Логистические комплексы</a></li>
+                                <li><a href="#">Ледовые арены</a></li>
+								<li><a href="#">Сельское хозяйство</a></li>
+                                <li><a href="#">Логистические комплексы</a></li>
+                                <li><a href="#">Ледовые арены</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+				<div class="col-md-2">
+                        <div class="futer-site">
+                           		<h3 class="menu-title"><a href="#">Изготовление домов</a></h3>
+                            <ul class="menu-list">
+                                <li><a href="#"><i class="fa fa-square"></i>Сельское хозяйство</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Логистические комплексы</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Ледовые арены</a></li>
+								<li><a href="#"><i class="fa fa-square"></i>Сельское хозяйство</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Логистические комплексы</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Ледовые арены</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+				<div class="col-md-2">
+                        <div class="futer-site">
+                           	<h3 class="menu-title"><a href="#">Ремонт и реконструкции</a></h3>
+                            <ul class="menu-list">
+                                <li><a href="#"><i class="fa fa-square"></i>Сельское хозяйство</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Логистические комплексы</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Ледовые арены</a></li>
+								<li><a href="#"><i class="fa fa-square"></i>Сельское хозяйство</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Логистические комплексы</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Ледовые арены</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+				<div class="col-md-2">
+                        <div class="futer-site">
+                            	<h3 class="menu-title"><a href="#">Металлоконструкции</a></h3>
+                            <ul class="menu-list">
+                                <li><a href="#"><i class="fa fa-square"></i>Сельское хозяйство</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Логистические комплексы</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Ледовые арены</a></li>
+								<li><a href="#"><i class="fa fa-square"></i>Сельское хозяйство</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Логистические комплексы</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Ледовые арены</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+				<div class="col-md-2">
+                        <div class="futer-site">
+                            	<h3 class="menu-title"><a href="#">Ландшафтный дизайн</a></h3>
+                            <ul class="menu-list">
+                                <li><a href="#"><i class="fa fa-square"></i>Сельское хозяйство</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Логистические комплексы</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Ледовые арены</a></li>
+								<li><a href="#"><i class="fa fa-square"></i>Сельское хозяйство</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Логистические комплексы</a></li>
+                                <li><a href="#"><i class="fa fa-square"></i>Ледовые арены</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+			</div>
+				</div><!--row-->
+			</div><!--conteiner-->
+		</div> <!--futer-top-->
+
+		 <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="fba-copyright">
+                                        <p>Алисард © 2018 Designed by EXchange.Все права защищены.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12 col-xs-12">
+                                    <div class="futer-links">
+                                        <ul>
+                                            <li><a href="#">Компания</a></li>
+                                            <li><a href="#">Проекты</a></li>
+                                            <li><a href="#">Новости</a></li>
+                                            <li><a href="#">Контакты</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+	</footer>
+{% block scripts %}
+    <script src="{% static 'js/jquery-1.11.min.js' %}"></script>
+    <script src="{% static 'plugins/bootstrap-3.3.7/js/bootstrap.js' %}"></script>
+{% endblock scripts %}
+    <script>
+       if ($(document).height() <= $(window).height())
+  $("footer.footer").addClass("navbar-fixed-bottom");
+    </script>
+
+</body>
+</html>
